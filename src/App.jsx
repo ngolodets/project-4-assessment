@@ -61,8 +61,8 @@ function App() {
         <LeftBox users={allLeftUsers} moveLeftUser={moveLeftUser} />
       </div>
       <div className='rightpanel'>
-      <button onClick={() => moveRightUser(usersRightCount)}>Move Left</button>
-      <p>Users: {usersRightCount}</p>
+        <button onClick={() => moveRightUser(usersRightCount)}>Move Left</button>
+        <p>Users: {usersRightCount}</p>
         <RightBox users={allRightUsers} />
       </div>
     </div>
