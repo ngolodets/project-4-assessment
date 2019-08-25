@@ -7,6 +7,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html, body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+​
+/* .UserBox {
+  margin: 0.4em auto;
+  padding: 0.1em;
+  border-radius: 1em;
+  background-color: lavender;
+}
+​
+.LeftPanel, .RightPanel {
+  vertical-align: top;
+  border: 1px solid black;
+  padding: 0.6em;
+  display: inline-block;
+  margin: 1em;
+  width: 20%;
+} */
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
